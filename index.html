@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/swiper-bundle.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>MocoMaker</title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+<header class="header _anim-items _anim-no-hide">
+    <div class="_container">
+        <div class="header__block">
+            <a href="index.html" class="header__logo">
+                <img src="img/header/logo2.png" alt="">
+            </a>
+            <ul class="header__list">
+                <li><a href="#Achievements" class="header__link">Achievements</a></li>
+                <li><a href="#projects" class="header__link">Our projects</a></li>
+                <li><a href="#team" class="header__link">Backstage</a></li>
+                <li><a href="#Vacancies" class="header__link">Vacancies</a></li>
+                <li><a href="#footer" class="header__link">Contacts</a></li>
+            </ul>
+            <div class="header__messagers">
+                <!--                 <a href="https://www.instagram.com/cip/" class="header__messager">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_370_2016)">
+                            <path
+                                d="M16 19.2812C17.8122 19.2812 19.2812 17.8122 19.2812 16C19.2812 14.1878 17.8122 12.7188 16 12.7188C14.1878 12.7188 12.7188 14.1878 12.7188 16C12.7188 17.8122 14.1878 19.2812 16 19.2812Z"
+                                fill="#FF1CD6" />
+                            <path
+                                d="M16 0.375C7.37056 0.375 0.375 7.37056 0.375 16C0.375 24.6294 7.37056 31.625 16 31.625C24.6294 31.625 31.625 24.6294 31.625 16C31.625 7.37056 24.6294 0.375 16 0.375ZM25.6536 19.9713C25.5786 21.4568 25.1612 22.9216 24.0786 23.9927C22.9856 25.0739 21.5138 25.4768 20.0139 25.5511H11.9861C10.4861 25.4768 9.0145 25.0742 7.92144 23.9927C6.83881 22.9216 6.42144 21.4568 6.34644 19.9713V12.0288C6.42144 10.5433 6.83887 9.07837 7.92144 8.00725C9.0145 6.926 10.4863 6.52312 11.9861 6.44894H20.0139C21.5139 6.52312 22.9855 6.92581 24.0786 8.00725C25.1612 9.07837 25.5786 10.5433 25.6536 12.0288L25.6536 19.9713Z"
+                                fill="#FF1CD6" />
+                            <path
+                                d="M19.9125 8.25872C17.9572 8.2051 14.0434 8.2051 12.088 8.25872C11.0705 8.28666 9.91691 8.53997 9.19191 9.31435C8.43854 10.1193 8.15385 11.0918 8.12497 12.1797C8.07422 14.0892 8.12497 19.8205 8.12497 19.8205C8.15804 20.9083 8.43854 21.8809 9.19191 22.6858C9.91691 23.4605 11.0705 23.7135 12.088 23.7415C14.0434 23.7951 17.9572 23.7951 19.9125 23.7415C20.9301 23.7135 22.0837 23.4602 22.8087 22.6858C23.562 21.8809 23.8467 20.9084 23.8756 19.8205V12.1797C23.8467 11.0918 23.562 10.1193 22.8087 9.31435C22.0834 8.53972 20.9298 8.28666 19.9125 8.25872ZM16 21.086C14.9941 21.086 14.0108 20.7878 13.1744 20.2289C12.3381 19.6701 11.6862 18.8757 11.3012 17.9464C10.9163 17.0171 10.8156 15.9945 11.0118 15.0079C11.2081 14.0213 11.6925 13.1151 12.4037 12.4038C13.115 11.6925 14.0212 11.2081 15.0078 11.0119C15.9944 10.8156 17.017 10.9164 17.9463 11.3013C18.8757 11.6862 19.67 12.3381 20.2288 13.1745C20.7877 14.0109 21.086 14.9942 21.086 16.0001C21.086 17.349 20.5501 18.6426 19.5963 19.5964C18.6425 20.5502 17.3489 21.086 16 21.086ZM21.1076 11.964C20.9064 11.9639 20.7098 11.9042 20.5425 11.7924C20.3753 11.6806 20.245 11.5217 20.168 11.3359C20.0911 11.15 20.071 10.9455 20.1102 10.7482C20.1495 10.5509 20.2464 10.3697 20.3887 10.2274C20.5309 10.0852 20.7122 9.98835 20.9095 9.94913C21.1068 9.9099 21.3113 9.93006 21.4972 10.0071C21.683 10.084 21.8419 10.2144 21.9536 10.3817C22.0654 10.549 22.125 10.7456 22.125 10.9468C22.125 11.0804 22.0987 11.2127 22.0476 11.3361C21.9964 11.4595 21.9215 11.5717 21.827 11.6661C21.7325 11.7606 21.6204 11.8355 21.4969 11.8866C21.3735 11.9377 21.2412 11.964 21.1076 11.964Z"
+                                fill="#FF1CD6" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_370_2016">
+                                <rect width="32" height="32" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a> -->
+                <a href="mailto:work@cip.com" class="header__messager">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_370_2012)">
+                            <path
+                                d="M15.9997 0C7.1635 0 0.00012207 7.16359 0.00012207 15.9998C0.00012207 24.8359 7.1635 32 15.9997 32C24.836 32 31.9999 24.8359 31.9999 15.9998C31.9999 7.16359 24.836 0 15.9997 0ZM16.0001 5.6199L25.4682 11.524H6.53192L16.0001 5.6199ZM25.5862 20.952H25.5852C25.5852 21.899 24.8178 22.6664 23.8709 22.6664H8.12927C7.18227 22.6664 6.41491 21.8989 6.41491 20.952V11.8996C6.41491 11.7995 6.42515 11.7021 6.44179 11.6064L15.4881 17.2473C15.4992 17.2543 15.511 17.2589 15.5224 17.2653C15.5344 17.272 15.5465 17.2784 15.5587 17.2844C15.6226 17.3174 15.6884 17.344 15.7557 17.3613C15.7626 17.3633 15.7696 17.3641 15.7765 17.3657C15.8503 17.3831 15.9251 17.394 15.9997 17.394H16.0003C16.0008 17.394 16.0013 17.394 16.0013 17.394C16.076 17.394 16.1508 17.3834 16.2246 17.3657C16.2315 17.364 16.2385 17.3633 16.2454 17.3613C16.3126 17.344 16.3782 17.3174 16.4424 17.2844C16.4546 17.2784 16.4667 17.272 16.4787 17.2653C16.49 17.2589 16.5019 17.2543 16.513 17.2473L25.5593 11.6064C25.5759 11.7021 25.5862 11.7993 25.5862 11.8996V20.952Z"
+                                fill="#00C6FF" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_370_2012">
+                                <rect width="32" height="32" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
+            <div class="header__burger-block">
+                <ul class="header__list-lock">
+                    <li><a href="" class="header__link">Achievements</a></li>
+                    <li><a href="" class="header__link">Our projects</a></li>
+                    <li><a href="" class="header__link">Backstage</a></li>
+                    <li><a href="" class="header__link">Vacancies</a></li>
+                    <li><a href="" class="header__link">Contacts</a></li>
+                </ul>
+                <div class="header__messagers-lock">
+                    <!--                  <a href="https://www.instagram.com/cip/" class="header__messager">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_370_2016)">
+                                <path
+                                    d="M16 19.2812C17.8122 19.2812 19.2812 17.8122 19.2812 16C19.2812 14.1878 17.8122 12.7188 16 12.7188C14.1878 12.7188 12.7188 14.1878 12.7188 16C12.7188 17.8122 14.1878 19.2812 16 19.2812Z"
+                                    fill="#FF1CD6" />
+                                <path
+                                    d="M16 0.375C7.37056 0.375 0.375 7.37056 0.375 16C0.375 24.6294 7.37056 31.625 16 31.625C24.6294 31.625 31.625 24.6294 31.625 16C31.625 7.37056 24.6294 0.375 16 0.375ZM25.6536 19.9713C25.5786 21.4568 25.1612 22.9216 24.0786 23.9927C22.9856 25.0739 21.5138 25.4768 20.0139 25.5511H11.9861C10.4861 25.4768 9.0145 25.0742 7.92144 23.9927C6.83881 22.9216 6.42144 21.4568 6.34644 19.9713V12.0288C6.42144 10.5433 6.83887 9.07837 7.92144 8.00725C9.0145 6.926 10.4863 6.52312 11.9861 6.44894H20.0139C21.5139 6.52312 22.9855 6.92581 24.0786 8.00725C25.1612 9.07837 25.5786 10.5433 25.6536 12.0288L25.6536 19.9713Z"
+                                    fill="#FF1CD6" />
+                                <path
+                                    d="M19.9125 8.25872C17.9572 8.2051 14.0434 8.2051 12.088 8.25872C11.0705 8.28666 9.91691 8.53997 9.19191 9.31435C8.43854 10.1193 8.15385 11.0918 8.12497 12.1797C8.07422 14.0892 8.12497 19.8205 8.12497 19.8205C8.15804 20.9083 8.43854 21.8809 9.19191 22.6858C9.91691 23.4605 11.0705 23.7135 12.088 23.7415C14.0434 23.7951 17.9572 23.7951 19.9125 23.7415C20.9301 23.7135 22.0837 23.4602 22.8087 22.6858C23.562 21.8809 23.8467 20.9084 23.8756 19.8205V12.1797C23.8467 11.0918 23.562 10.1193 22.8087 9.31435C22.0834 8.53972 20.9298 8.28666 19.9125 8.25872ZM16 21.086C14.9941 21.086 14.0108 20.7878 13.1744 20.2289C12.3381 19.6701 11.6862 18.8757 11.3012 17.9464C10.9163 17.0171 10.8156 15.9945 11.0118 15.0079C11.2081 14.0213 11.6925 13.1151 12.4037 12.4038C13.115 11.6925 14.0212 11.2081 15.0078 11.0119C15.9944 10.8156 17.017 10.9164 17.9463 11.3013C18.8757 11.6862 19.67 12.3381 20.2288 13.1745C20.7877 14.0109 21.086 14.9942 21.086 16.0001C21.086 17.349 20.5501 18.6426 19.5963 19.5964C18.6425 20.5502 17.3489 21.086 16 21.086ZM21.1076 11.964C20.9064 11.9639 20.7098 11.9042 20.5425 11.7924C20.3753 11.6806 20.245 11.5217 20.168 11.3359C20.0911 11.15 20.071 10.9455 20.1102 10.7482C20.1495 10.5509 20.2464 10.3697 20.3887 10.2274C20.5309 10.0852 20.7122 9.98835 20.9095 9.94913C21.1068 9.9099 21.3113 9.93006 21.4972 10.0071C21.683 10.084 21.8419 10.2144 21.9536 10.3817C22.0654 10.549 22.125 10.7456 22.125 10.9468C22.125 11.0804 22.0987 11.2127 22.0476 11.3361C21.9964 11.4595 21.9215 11.5717 21.827 11.6661C21.7325 11.7606 21.6204 11.8355 21.4969 11.8866C21.3735 11.9377 21.2412 11.964 21.1076 11.964Z"
+                                    fill="#FF1CD6" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_370_2016">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a> -->
+                    <a href="mailto:work@cip.com" class="header__messager">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_370_2012)">
+                                <path
+                                    d="M15.9997 0C7.1635 0 0.00012207 7.16359 0.00012207 15.9998C0.00012207 24.8359 7.1635 32 15.9997 32C24.836 32 31.9999 24.8359 31.9999 15.9998C31.9999 7.16359 24.836 0 15.9997 0ZM16.0001 5.6199L25.4682 11.524H6.53192L16.0001 5.6199ZM25.5862 20.952H25.5852C25.5852 21.899 24.8178 22.6664 23.8709 22.6664H8.12927C7.18227 22.6664 6.41491 21.8989 6.41491 20.952V11.8996C6.41491 11.7995 6.42515 11.7021 6.44179 11.6064L15.4881 17.2473C15.4992 17.2543 15.511 17.2589 15.5224 17.2653C15.5344 17.272 15.5465 17.2784 15.5587 17.2844C15.6226 17.3174 15.6884 17.344 15.7557 17.3613C15.7626 17.3633 15.7696 17.3641 15.7765 17.3657C15.8503 17.3831 15.9251 17.394 15.9997 17.394H16.0003C16.0008 17.394 16.0013 17.394 16.0013 17.394C16.076 17.394 16.1508 17.3834 16.2246 17.3657C16.2315 17.364 16.2385 17.3633 16.2454 17.3613C16.3126 17.344 16.3782 17.3174 16.4424 17.2844C16.4546 17.2784 16.4667 17.272 16.4787 17.2653C16.49 17.2589 16.5019 17.2543 16.513 17.2473L25.5593 11.6064C25.5759 11.7021 25.5862 11.7993 25.5862 11.8996V20.952Z"
+                                    fill="#00C6FF" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_370_2012">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header><main class="main">
+    <section class="ideas" id="Achievements">
+        <div class="_container">
+            <div class="ideas__block">
+                <div class="ideas__body">
+                    <div class="ideas__title _anim-items _anim-no-hide">
+                        <p>
+                            Creative <br> Space
+                        </p>
+                        <!-- <span class="idea-span _anim-items _anim-no-hide">Ideas</span> -->
+                    </div>
+                    <div class="ideas__subtitle _anim-items _anim-no-hide">One of the <span>fastest growing</span> <br>
+                        production company in
+                        Cyprus
+                        <div class="ideas__line"></div>
+                    </div>
+                    <div class="ideas__button">
+                        <a href="#Vacancies">Join us</a>
+                    </div>
+                    <div class="ideas__idea">
+                        <img src="img/ideas/idea.svg" alt="">
+                    </div>
+                    <div class="circle__green">
+
+                    </div>
+                    <div class="circle__pink">
+
+                    </div>
+                </div>
+                <div class="ideas__text-body">
+                    <div class="ideas__text">We create entertainment content <br>
+                        for children and teenagers around the world</div>
+                    <div class="ideas__biglogo _anim-items _anim-no-hide">
+                        <img src="img/ideas/biglogo.png" alt="">
+                    </div>
+                    <div class="ideas__star _anim-items _anim-no-hide">
+                        <img src="img/ideas/star.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="line-1">
+
+            </div>
+            <div class="line-2">
+
+            </div>
+
+        </div>
+    </section>
+    <section class="progress">
+        <div class="_container">
+            <div class="progress__block">
+                <div class="progress__item">
+                    <div class="progress__img">
+                        <img src="img/progress/1.svg" alt="">
+                    </div>
+                    <div class="progress__body">
+                        <div class="progress__title">
+                            300 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.46895 17.9987C1.52273 17.2347 1.00711 16.2449 0.922093 15.0291C0.837078 13.8133 1.20991 12.7613 2.0406 11.8731C2.8702 10.9692 3.99421 10.4677 5.41262 10.3685L9.48081 10.0841L9.19633 6.01588C9.09715 4.59747 9.42955 3.41515 10.1935 2.46893C10.9731 1.52162 11.9708 1.00545 13.1866 0.920436C14.4023 0.83542 15.4543 1.20826 16.3426 2.03895C17.2308 2.86963 17.7245 3.99418 17.8237 5.41259L18.1082 9.48079L22.1764 9.19631C23.5948 9.09713 24.7776 9.43732 25.725 10.2169C26.6712 10.9809 27.1868 11.9707 27.2718 13.1865C27.3568 14.4023 26.984 15.4543 26.1533 16.3426C25.3226 17.2308 24.1981 17.7245 22.7797 17.8237L18.7115 18.1082L18.9959 22.1763C19.0951 23.5948 18.7627 24.7771 17.9987 25.7233C17.2348 26.6695 16.2449 27.1851 15.0291 27.2702C13.8133 27.3552 12.7535 26.9829 11.8497 26.1533C10.9615 25.3226 10.4678 24.198 10.3686 22.7796L10.0841 18.7114L6.0159 18.9959C4.59749 19.0951 3.41517 18.7627 2.46895 17.9987Z"
+                                    fill="white" />
+                            </svg>
+
+                        </div>
+                        <div class="progress__subtitle">
+                            YouTube channels
+                        </div>
+                    </div>
+                </div>
+                <div class="progress__item">
+                    <div class="progress__img">
+                        <img src="img/progress/2.svg" alt="">
+                    </div>
+                    <div class="progress__body">
+                        <div class="progress__title">
+                            60 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.46895 17.9987C1.52273 17.2347 1.00711 16.2449 0.922093 15.0291C0.837078 13.8133 1.20991 12.7613 2.0406 11.8731C2.8702 10.9692 3.99421 10.4677 5.41262 10.3685L9.48081 10.0841L9.19633 6.01588C9.09715 4.59747 9.42955 3.41515 10.1935 2.46893C10.9731 1.52162 11.9708 1.00545 13.1866 0.920436C14.4023 0.83542 15.4543 1.20826 16.3426 2.03895C17.2308 2.86963 17.7245 3.99418 17.8237 5.41259L18.1082 9.48079L22.1764 9.19631C23.5948 9.09713 24.7776 9.43732 25.725 10.2169C26.6712 10.9809 27.1868 11.9707 27.2718 13.1865C27.3568 14.4023 26.984 15.4543 26.1533 16.3426C25.3226 17.2308 24.1981 17.7245 22.7797 17.8237L18.7115 18.1082L18.9959 22.1763C19.0951 23.5948 18.7627 24.7771 17.9987 25.7233C17.2348 26.6695 16.2449 27.1851 15.0291 27.2702C13.8133 27.3552 12.7535 26.9829 11.8497 26.1533C10.9615 25.3226 10.4678 24.198 10.3686 22.7796L10.0841 18.7114L6.0159 18.9959C4.59749 19.0951 3.41517 18.7627 2.46895 17.9987Z"
+                                    fill="white" />
+                            </svg>
+                            m
+                        </div>
+                        <div class="progress__subtitle">
+                            followers
+                        </div>
+                    </div>
+                </div>
+                <div class="progress__item">
+                    <div class="progress__img">
+                        <img src="img/progress/3.svg" alt="">
+                    </div>
+                    <div class="progress__body">
+                        <div class="progress__title">
+                            1 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.46895 17.9987C1.52273 17.2347 1.00711 16.2449 0.922093 15.0291C0.837078 13.8133 1.20991 12.7613 2.0406 11.8731C2.8702 10.9692 3.99421 10.4677 5.41262 10.3685L9.48081 10.0841L9.19633 6.01588C9.09715 4.59747 9.42955 3.41515 10.1935 2.46893C10.9731 1.52162 11.9708 1.00545 13.1866 0.920436C14.4023 0.83542 15.4543 1.20826 16.3426 2.03895C17.2308 2.86963 17.7245 3.99418 17.8237 5.41259L18.1082 9.48079L22.1764 9.19631C23.5948 9.09713 24.7776 9.43732 25.725 10.2169C26.6712 10.9809 27.1868 11.9707 27.2718 13.1865C27.3568 14.4023 26.984 15.4543 26.1533 16.3426C25.3226 17.2308 24.1981 17.7245 22.7797 17.8237L18.7115 18.1082L18.9959 22.1763C19.0951 23.5948 18.7627 24.7771 17.9987 25.7233C17.2348 26.6695 16.2449 27.1851 15.0291 27.2702C13.8133 27.3552 12.7535 26.9829 11.8497 26.1533C10.9615 25.3226 10.4678 24.198 10.3686 22.7796L10.0841 18.7114L6.0159 18.9959C4.59749 19.0951 3.41517 18.7627 2.46895 17.9987Z"
+                                    fill="white" />
+                            </svg>
+                            b
+                        </div>
+                        <div class="progress__subtitle">
+                            views
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <div class="projects__polygon1">
+            <img src="img/projects/Polygon1.png" alt="">
+        </div>
+        <div class="projects__polygon2">
+            <img src="img/projects/Polygon2.png" alt="">
+        </div>
+        <div class="projects__circle">
+
+        </div>
+        <div class="projects__block">
+            <div class="projects__title">
+                our
+                <span>projects</span>
+            </div>
+            <div class="projects__slider-block">
+                <div class="projects__slider swiper-container">
+                    <div class="projects__items swiper-wrapper">
+                        <div class="projects__item swiper-slide">
+                            <img src="img/projects/1.png" alt="">
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="img/projects/2.png" alt="">
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="img/projects/3.png" alt="">
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="img/projects/4.png" alt="">
+                        </div>
+                        <div class="projects__item swiper-slide">
+                            <img src="img/projects/5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__items-m">
+                <div class="projects__item">
+                    <img src="img/projects/1.png" alt="">
+                </div>
+                <div class="projects__item">
+                    <img src="img/projects/2.png" alt="">
+                </div>
+                <div class="projects__item">
+                    <img src="img/projects/3.png" alt="">
+                </div>
+                <div class="projects__item">
+                    <img src="img/projects/4.png" alt="">
+                </div>
+                <div class="projects__item">
+                    <img src="img/projects/5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="achievements" id="Backstage">
+        <div class="_container">
+            <div class="achievements__block">
+                <div class="achievements__item">
+                    <div class="achievements__img">
+                        <img src="img/achievements/1.png" alt="">
+                    </div>
+                    <div class="achievements__body">
+                        <div class="achievements__title">
+                            15 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.10179 16.3435C1.27669 15.45 0.910475 14.3957 1.00313 13.1805C1.09578 11.9653 1.61761 10.9787 2.56861 10.2206C3.52081 9.44703 4.70578 9.11428 6.12354 9.22237L10.1899 9.5324L10.4999 5.46608C10.608 4.04832 11.1088 2.92689 12.0022 2.1018C12.9112 1.2779 13.9733 0.912275 15.1886 1.00493C16.4038 1.09758 17.3904 1.61941 18.1484 2.57041C18.9064 3.52142 19.2314 4.7058 19.1233 6.12356L18.8133 10.1899L22.8796 10.4999C24.2974 10.608 25.4182 11.1166 26.2421 12.0256C27.0672 12.919 27.4334 13.9733 27.3408 15.1886C27.2481 16.4038 26.7263 17.3904 25.7753 18.1484C24.8243 18.9065 23.6399 19.2314 22.2221 19.1233L18.1558 18.8133L17.8458 22.8796C17.7377 24.2974 17.2369 25.4188 16.3435 26.2439C15.45 27.069 14.3957 27.4352 13.1805 27.3426C11.9653 27.2499 10.9708 26.7275 10.1972 25.7753C9.43922 24.8243 9.11426 23.6399 9.22235 22.2221L9.53239 18.1558L5.46606 17.8458C4.0483 17.7377 2.92688 17.2369 2.10179 16.3435Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="achievements__text">
+                            Gold buttons
+                        </div>
+                    </div>
+                </div>
+                <div class="achievements__item">
+                    <div class="achievements__img">
+                        <img src="img/achievements/2.png" alt="">
+                    </div>
+                    <div class="achievements__body">
+                        <div class="achievements__title">
+                            150 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.10179 16.3435C1.27669 15.45 0.910475 14.3957 1.00313 13.1805C1.09578 11.9653 1.61761 10.9787 2.56861 10.2206C3.52081 9.44703 4.70578 9.11428 6.12354 9.22237L10.1899 9.5324L10.4999 5.46608C10.608 4.04832 11.1088 2.92689 12.0022 2.1018C12.9112 1.2779 13.9733 0.912275 15.1886 1.00493C16.4038 1.09758 17.3904 1.61941 18.1484 2.57041C18.9064 3.52142 19.2314 4.7058 19.1233 6.12356L18.8133 10.1899L22.8796 10.4999C24.2974 10.608 25.4182 11.1166 26.2421 12.0256C27.0672 12.919 27.4334 13.9733 27.3408 15.1886C27.2481 16.4038 26.7263 17.3904 25.7753 18.1484C24.8243 18.9065 23.6399 19.2314 22.2221 19.1233L18.1558 18.8133L17.8458 22.8796C17.7377 24.2974 17.2369 25.4188 16.3435 26.2439C15.45 27.069 14.3957 27.4352 13.1805 27.3426C11.9653 27.2499 10.9708 26.7275 10.1972 25.7753C9.43922 24.8243 9.11426 23.6399 9.22235 22.2221L9.53239 18.1558L5.46606 17.8458C4.0483 17.7377 2.92688 17.2369 2.10179 16.3435Z"
+                                    fill="white" />
+                            </svg>
+                        </div>
+                        <div class="achievements__text">
+                            Silver buttons
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="achievements__polygon1">
+                <img src="img/achievements/polygon1.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="team" id="team">
+        <div class="team__container">
+            <div class="team__circle1">
+
+            </div>
+            <div class="team__circle2">
+
+            </div>
+            <div class="team__block">
+                <div class="team__title">
+                    our team
+                </div>
+                <div class="team__items">
+                    <div class="team__item _ibg">
+                        <img src="img/team/1.jpg" alt="">
+                    </div>
+                    <div class="team__item _ibg">
+                        <img src="img/team/2.jpg" alt="">
+                    </div>
+                    <div class="team__item _ibg">
+                        <img src="img/team/3.jpg" alt="">
+                    </div>
+                    <div class="team__item _ibg">
+                        <img src="img/team/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="team__show-items">
+                    <div class="team__items">
+                        <div class="team__item _ibg">
+                            <img src="img/team/5.jpg" alt="">
+                        </div>
+                        <div class="team__item _ibg">
+                            <img src="img/team/6.jpg" alt="">
+                        </div>
+                        <!-- <div class="team__item _ibg">
+                            <img src="img/team/3.jpg" alt="">
+                        </div>
+                        <div class="team__item _ibg">
+                            <img src="img/team/4.jpg" alt="">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="team__btn">
+                <a>Show more</a>
+            </div>
+        </div>
+    </section>
+    <section class="join" id="Vacancies">
+        <div class="_container">
+            <div class="join__block">
+                <div class="join__title">
+                    join us
+                </div>
+                <div class="join__items">
+                    <div class="join__item yellow">
+                        <div class="join__subtitle">Technicals</div>
+                        <div class="join__text">We are looking for a Talent Recruiter, a true Sherlock Holmes who will
+                            help us to find the best talents!</div>
+                    </div>
+                    <div class="join__item blue">
+                        <div class="join__subtitle">Artists-Designers</div>
+                        <div class="join__text">We are looking for a Talent Recruiter, a true Sherlock Holmes who will
+                            help us to find the best talents!</div>
+                    </div>
+                    <div class="join__item perplue">
+                        <div class="join__subtitle">Storyboarders</div>
+                        <div class="join__text">We are looking for a Talent Recruiter, a true Sherlock Holmes who will
+                            help us to find the best talents!</div>
+                    </div>
+                    <div class="join__item yellow">
+                        <div class="join__subtitle">Writers</div>
+                        <div class="join__text">We are looking for a Talent Recruiter, a true Sherlock Holmes who will
+                            help us to find the best talents!</div>
+                    </div>
+                    <div class="join__item blue">
+                        <div class="join__subtitle">Video Editors</div>
+                        <div class="join__text">We are looking for a Talent Recruiter, a true Sherlock Holmes who will
+                            help us to find the best talents!</div>
+                    </div>
+                    <div class="join__item perplue">
+                        <div class="join__subtitle">Head of video editing department</div>
+                        <div class="join__text">We are looking for a Talent Recruiter, a true Sherlock Holmes who will
+                            help us to find the best talents!</div>
+                    </div>
+                </div>
+                <div class="join__btn btn-popup">
+                    <a>Become a part of our team!</a>
+                </div>
+                <div class="join__img">
+                    <img src="img/join/play.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="join__circle-purple">
+
+        </div>
+        <div class="join__circle-blue">
+
+        </div>
+        <div class="join__circle-pink">
+
+        </div>
+        <div class="join__star">
+            <img src="img/join/star.svg" alt="">
+        </div>
+        <div class="join__circle-polygon1">
+            <img src="img/join/polygon1.svg" alt="">
+        </div>
+        <div class="join__circle-polygon2">
+            <img src="img/join/polygon2.svg" alt="">
+        </div>
+    </section>
+    <div class="loader__block">
+        <div class="loader loader--style2" title="1">
+            <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="100px"
+                viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+                <path fill="#ff1cd6"
+                    d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+                    <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25"
+                        to="360 25 25" dur="0.6s" repeatCount="indefinite" />
+                </path>
+            </svg>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="popup__block">
+            <div class="popup__title">Tell us about yourself</div>
+            <div class="popup__text">Fill out the form or send your CV to work@cip.studio
+            </div>
+            <form class="popup__form form">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="ContentIdeasProduction">
+                <input type="hidden" name="admin_email" value="vladdotsenko44@gmail.com">
+                <input type="hidden" name="form_subject" value="Form">
+                <!-- END Hidden Required Fields -->
+                <div class="popup__input-block">
+                    <div class="popup__name">Full Name</div>
+                    <input type="text" name='Name' class="popup__input">
+                </div>
+                <div class="popup__input-block">
+                    <div class="popup__name">E-mail</div>
+                    <input type="text" name="E-mail" class="popup__input">
+                </div>
+                <div class="popup__input-block">
+                    <div class="popup__name">Phone</div>
+                    <input type="text" name="Phone" class="popup__input">
+                </div>
+                <div class="popup__input-block">
+                    <div class="popup__name">Message</div>
+                    <textarea name="name2" id="" class="popup__textarea"></textarea>
+                </div>
+                <button class="popup__btn">Send
+                </button>
+            </form>
+            <div class="popup__close">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M11 9L2 0L0 2L9 11L0 20L2 22L11 13L20 22L22 20L13 11L22 2L20 0L11 9Z" fill="black" />
+                </svg>
+            </div>
+        </div>
+    </div>
+</main><footer class="footer" id="footer">
+    <div class="_container">
+        <div class="footer__block">
+            <div class="footer__logo-block">
+                <div class="footer__logo">
+                    <img src="img/header/logo.png" alt="">
+                </div>
+                <div class="footer__text">
+                    © 2022 Content Ideas Production
+                </div>
+            </div>
+            <div class="footer__messagers-block">
+                <div class="footer__subtext">
+                    Any questions? <br>
+                    Contact us!
+                </div>
+                <div class="footer__messagers">
+                    <a href="https://www.instagram.com/cip/" class="header__messager">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_370_2016)">
+                                <path
+                                    d="M16 19.2812C17.8122 19.2812 19.2812 17.8122 19.2812 16C19.2812 14.1878 17.8122 12.7188 16 12.7188C14.1878 12.7188 12.7188 14.1878 12.7188 16C12.7188 17.8122 14.1878 19.2812 16 19.2812Z"
+                                    fill="#FF1CD6" />
+                                <path
+                                    d="M16 0.375C7.37056 0.375 0.375 7.37056 0.375 16C0.375 24.6294 7.37056 31.625 16 31.625C24.6294 31.625 31.625 24.6294 31.625 16C31.625 7.37056 24.6294 0.375 16 0.375ZM25.6536 19.9713C25.5786 21.4568 25.1612 22.9216 24.0786 23.9927C22.9856 25.0739 21.5138 25.4768 20.0139 25.5511H11.9861C10.4861 25.4768 9.0145 25.0742 7.92144 23.9927C6.83881 22.9216 6.42144 21.4568 6.34644 19.9713V12.0288C6.42144 10.5433 6.83887 9.07837 7.92144 8.00725C9.0145 6.926 10.4863 6.52312 11.9861 6.44894H20.0139C21.5139 6.52312 22.9855 6.92581 24.0786 8.00725C25.1612 9.07837 25.5786 10.5433 25.6536 12.0288L25.6536 19.9713Z"
+                                    fill="#FF1CD6" />
+                                <path
+                                    d="M19.9125 8.25872C17.9572 8.2051 14.0434 8.2051 12.088 8.25872C11.0705 8.28666 9.91691 8.53997 9.19191 9.31435C8.43854 10.1193 8.15385 11.0918 8.12497 12.1797C8.07422 14.0892 8.12497 19.8205 8.12497 19.8205C8.15804 20.9083 8.43854 21.8809 9.19191 22.6858C9.91691 23.4605 11.0705 23.7135 12.088 23.7415C14.0434 23.7951 17.9572 23.7951 19.9125 23.7415C20.9301 23.7135 22.0837 23.4602 22.8087 22.6858C23.562 21.8809 23.8467 20.9084 23.8756 19.8205V12.1797C23.8467 11.0918 23.562 10.1193 22.8087 9.31435C22.0834 8.53972 20.9298 8.28666 19.9125 8.25872ZM16 21.086C14.9941 21.086 14.0108 20.7878 13.1744 20.2289C12.3381 19.6701 11.6862 18.8757 11.3012 17.9464C10.9163 17.0171 10.8156 15.9945 11.0118 15.0079C11.2081 14.0213 11.6925 13.1151 12.4037 12.4038C13.115 11.6925 14.0212 11.2081 15.0078 11.0119C15.9944 10.8156 17.017 10.9164 17.9463 11.3013C18.8757 11.6862 19.67 12.3381 20.2288 13.1745C20.7877 14.0109 21.086 14.9942 21.086 16.0001C21.086 17.349 20.5501 18.6426 19.5963 19.5964C18.6425 20.5502 17.3489 21.086 16 21.086ZM21.1076 11.964C20.9064 11.9639 20.7098 11.9042 20.5425 11.7924C20.3753 11.6806 20.245 11.5217 20.168 11.3359C20.0911 11.15 20.071 10.9455 20.1102 10.7482C20.1495 10.5509 20.2464 10.3697 20.3887 10.2274C20.5309 10.0852 20.7122 9.98835 20.9095 9.94913C21.1068 9.9099 21.3113 9.93006 21.4972 10.0071C21.683 10.084 21.8419 10.2144 21.9536 10.3817C22.0654 10.549 22.125 10.7456 22.125 10.9468C22.125 11.0804 22.0987 11.2127 22.0476 11.3361C21.9964 11.4595 21.9215 11.5717 21.827 11.6661C21.7325 11.7606 21.6204 11.8355 21.4969 11.8866C21.3735 11.9377 21.2412 11.964 21.1076 11.964Z"
+                                    fill="#FF1CD6" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_370_2016">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                    <a href="mailto:work@cip.com" class="header__messager">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_370_2012)">
+                                <path
+                                    d="M15.9997 0C7.1635 0 0.00012207 7.16359 0.00012207 15.9998C0.00012207 24.8359 7.1635 32 15.9997 32C24.836 32 31.9999 24.8359 31.9999 15.9998C31.9999 7.16359 24.836 0 15.9997 0ZM16.0001 5.6199L25.4682 11.524H6.53192L16.0001 5.6199ZM25.5862 20.952H25.5852C25.5852 21.899 24.8178 22.6664 23.8709 22.6664H8.12927C7.18227 22.6664 6.41491 21.8989 6.41491 20.952V11.8996C6.41491 11.7995 6.42515 11.7021 6.44179 11.6064L15.4881 17.2473C15.4992 17.2543 15.511 17.2589 15.5224 17.2653C15.5344 17.272 15.5465 17.2784 15.5587 17.2844C15.6226 17.3174 15.6884 17.344 15.7557 17.3613C15.7626 17.3633 15.7696 17.3641 15.7765 17.3657C15.8503 17.3831 15.9251 17.394 15.9997 17.394H16.0003C16.0008 17.394 16.0013 17.394 16.0013 17.394C16.076 17.394 16.1508 17.3834 16.2246 17.3657C16.2315 17.364 16.2385 17.3633 16.2454 17.3613C16.3126 17.344 16.3782 17.3174 16.4424 17.2844C16.4546 17.2784 16.4667 17.272 16.4787 17.2653C16.49 17.2589 16.5019 17.2543 16.513 17.2473L25.5593 11.6064C25.5759 11.7021 25.5862 11.7993 25.5862 11.8996V20.952Z"
+                                    fill="#00C6FF" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_370_2012">
+                                    <rect width="32" height="32" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>   </div>
+   <script src="js/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/script-send.js"></script>
+
+</body>
+
+</html>
